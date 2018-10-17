@@ -3,6 +3,12 @@
 IPython cell magic for chapel code.
 
 ## Quick Start
+Install with pip:
+```bash
+pip install git+https://github.com/reuster986/chpl-magic
+```
+
+In Jupyter:
 ```python
 %load_ext chpl_magic
 ```
