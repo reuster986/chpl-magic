@@ -1,0 +1,4 @@
+from .chpl_magic import ChplMagic
+
+def load_ipython_extension(ip):
+    ip.register_magics(ChplMagic)
